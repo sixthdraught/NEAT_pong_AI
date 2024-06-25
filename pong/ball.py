@@ -6,8 +6,10 @@ import random
 class Ball:
     MAX_VEL = 5
     RADIUS = 7
-
+    
+    
     def __init__(self, x, y):
+        #initializes the self.x and self.y coords
         self.x = self.original_x = x
         self.y = self.original_y = y
         

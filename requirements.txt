@@ -1,2 +1,3 @@
+pip modules required:
 neat-python
 pygame
