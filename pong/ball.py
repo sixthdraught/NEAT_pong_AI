@@ -2,7 +2,7 @@ import pygame
 import math
 import random
 
-
+#ball class
 class Ball:
     MAX_VEL = 5
     RADIUS = 7

@@ -1,9 +1,12 @@
+
+#the ai will stop once one of its neurons reaches a threshold of 400
 [NEAT]
 fitness_criterion     = max
 fitness_threshold     = 400
 pop_size              = 50
 reset_on_extinction   = False
 
+#prevents the model from regressing  
 [DefaultStagnation]
 species_fitness_func = max
 max_stagnation       = 20

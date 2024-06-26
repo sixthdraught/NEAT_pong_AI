@@ -4,7 +4,8 @@ import pygame
 import random
 pygame.init()
 
-
+#info necessary for the ai to properly function
+\
 class GameInformation:
     def __init__(self, left_hits, right_hits, left_score, right_score):
         self.left_hits = left_hits
